@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="height=device-height, initial-scale= 1.0" >
+        <meta name="author" content="cooljoe623">
+        <title>JOSEPH GICHURE.</title>
+        
+        <link id="theme-link" rel="stylesheet" href="light.css">
+        
+        <style>
+            .container{
+                background: none;
+                text-align: justify;
+                border-style: none;
+                border-radius: 1cm;
+            }
+            .fieldset0{
+                border-style: dotted;
+                border-radius: 1cm;
+                border-color: rgb(5, 226, 53);
+
+            }
+            .fieldset{
+                background-image: url(./black\ suit.jpg);
+                color: rgb(187, 186, 186);
+                width: 15cm;
+                height: fit-content;
+                float: left;
+                border-style: none;
+                border-radius: 0.5cm;
+
+            }
+            .fieldset2{
+                background-image: url(./black\ suit.jpg);
+                color: greenyellow;
+                width: 15cm;
+                float: right;
+                border-style: none;
+                border-radius: 1cm;
+                
+            }
+            .strong{
+                
+                font-size: 15px;
+                font-style: bold;
+                font-variant: inherit;
+                text-shadow: 2cap;
+                text-decoration: underline;
+                     
+            }
+            #typing-paragraph {
+                white-space: nowrap;
+                overflow: hidden;
+                border-right: 2px solid black; /* Optional: Simulate the cursor */
+                color: green;
+            }
+        </style>
+
+    </head>
+    <body class="container" id="demo">
+
+       <h2> <code class="strong" style="color: blue; float: right; text-shadow: 2cap;">JOSEPH GICHURE NDEGWA (cooljoe623)</code></h2><br><br>
+
+
+        <fieldset class="fieldset0">
+        <fieldset class="fieldset"><p >Hello 🤝 welcome to my portfolio. Click on the below links to read about me!!! </p><br>
+        <a href="#typing-paragraph"> About me.</a> <br>
+        <a href="#projects">Project showcase.</a><br>
+        <a href="#technologies">Tech/tools i use.</a><br>
+        <a href="#resume"> Resume/CV (downloadable).</a><br>
+        <a href="#testimonials">Testimonials & Recomedations.</a><br>
+        <a href="#contact info"> Contact information.</a><br>
+        </fieldset> 
+
+        <fieldset class="fieldset2">
+
+        <button id="theme-toggle" style="float: right;height: 1cm;">Toggle Theme</button>
+<p>Email:  <a href="https://josephgichure692@gmail.com">    josephgichure692@gmail.com</a></p>
+<p>Whatsapp:  <a href="https://Whatsapp.com/message/0101260024">    +254 758 213 683</a></p>
+<p>Github:   <a href="https://github.com/cooljoe623">   cooljoe623</a></p>
+<p>LinkedIn:   <a href="https://linkedin.com/josephgichure">Joseph Gichure</a></p>
+
+</fieldset>
+
+  <script>/*the javascript for the dark/light mode of the page */
+    const themeToggle = document.getElementById("theme-toggle");
+    const themeLink = document.getElementById("theme-link");
+
+    themeToggle.addEventListener("click", () => {
+      if (themeLink.getAttribute("href") === "light.css") {
+        themeLink.href = "dark.css";
+        document.body.style.backgroundColor = "black";
+        document.body.style.color = "rgb(34, 1, 1)";
+
+        
+      } else {
+        themeLink.href = "light.css";
+        document.body.style.backgroundColor = "#FFFFFF";
+        document.body.style.color = "#000000";
+      }
+    });
+  </script>
+
+  
+
+        </fieldset><br>
+
+        <fieldset class="container">
+
+        <fieldset class="fieldset">
+            <code>
+            <p id="typing-paragraph"> </p>
+
+  <script src="js.js"></script>
+</code>
+        </fieldset>
+<!--incomplete detail tag(dtails)-->
+        <fieldset class="fieldset2"><dtails>
+            <summary>Project showcase.</summary>
+            <p id="projects" style="color: blue;">
+                To see all my projects and works please click on this link to visit my <a href="https://github.com/cooljoe623" >GITHUB</a>  or find me via my <a href="#contact info">Contact.</a>.
+
+            </p>
+        </details>
+
+        <a href="./joseph_gichure_cv.pdf">download cv</a><br><br>
+
+        <!--THE TECH AND TOOLS I HAVE USED-->
+        <!--incomplete details tag(dtails)-->
+        <dtails><summary>Tech & tools i use.</summary>
+            <!--header sec-->
+            <table width="100%" style="border-collapse: collapse;">
+                          
+                <!--header section-->
+                <tr style="text-decoration: underline;">
+                    <td style="background-color:black;width: max-content; height: max-content;">
+                    <p>TECHNOLOGY</p>
+                    </td>
+                    <td style="background-color: rgb(226, 43, 43); height: max-content;">
+                    <p>USAGE</p>
+                    </td>
+                    <td style="background-color:black;width: max-content; height: max-content;">
+                        <p>EXPERIENCE(years)</p>
+                        </td>
+                </tr>
+
+                
+                <!--main section-->
+                <tr style="color: blue;">
+                    <td style="background-color:black;width: max-content; height: max-content;">
+                    <p>python</p>
+                    <p>c / c++</p>
+                    <p>html, css , javascript</p>
+                    </td>
+                    <td style="background-color: rgb(226, 43, 43); height: max-content;">
+                    <p>backend</p>
+                    <p>backend</p>
+                    <p>frontend</p>
+                    </td>
+                    <td style="background-color:black;width: max-content; height: max-content;">
+                        <p>2+ </p>
+                        <p>3+</p>
+                        <p>3+</p>
+                        </td>
+                </tr>
+
+            </table>
+        
+        </details>
+
+            <script src="projects.js"></script>
+
+
+
+        </fieldset>
+        
+    </fieldset>
+    </body>
+</html>
