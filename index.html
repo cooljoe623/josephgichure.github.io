@@ -10,21 +10,24 @@
         
         <style>
             .container{
-                background: none;
+                background-color: rgb(0, 0, 0);
                 text-align: justify;
                 border-style: none;
                 border-radius: 1cm;
+                text-shadow: 3px 3px 5px red;
+                font-size: 15px;
+                font-family: fantasy;
+                
             }
             .fieldset0{
-                border-style: dotted;
+                border-bottom-style: double;
+                border-bottom: rgb(5, 226, 53);
                 border-radius: 1cm;
-                border-color: rgb(5, 226, 53);
-
             }
             .fieldset{
                 background-image: url(./black\ suit.jpg);
                 color: rgb(187, 186, 186);
-                width: 15cm;
+                width: 5cm;
                 height: fit-content;
                 float: left;
                 border-style: none;
@@ -55,31 +58,48 @@
                 border-right: 2px solid black; /* Optional: Simulate the cursor */
                 color: green;
             }
+            .fieldsetfooter{
+                background: none;
+                color: blue;
+                text-align: justify;
+                border-style: none;
+                border-radius: 1cm;
+            }
         </style>
 
     </head>
     <body class="container" id="demo">
 
-       <h2> <code class="strong" style="color: blue; float: right; text-shadow: 2cap;">JOSEPH GICHURE NDEGWA (cooljoe623)</code></h2><br><br>
+        <details style="float: left;"><summary><img src="./dialog.png" alt="dialog" ></summary>
+            <ul type="square">
+        <li><a href="#typing-paragraph"> About me.</a></li> <br>
+       <li> <a href="#projects">Project showcase.</a></li><br>
+        <li><a href="#technologies">Tech/tools i use.</a></li><br>
+       <li> <a href="#resume"> Resume/CV (downloadable).</a></li><br>
+        <li> <a href="#testimonials">Testimonials & Recomedations.</a></li><br>
+       <li> <a href="#contact info"> Contact information.</a></li><br>
+    </ul>
+    </details>
+
+       <h2 id="top"> <code class="strong" style="color: blue; float: right; text-shadow: 2cap;">JOSEPH GICHURE NDEGWA (cooljoe623)</code></h2><br><br>
 
 
         <fieldset class="fieldset0">
-        <fieldset class="fieldset"><p >Hello 🤝 welcome to my portfolio. Click on the below links to read about me!!! </p><br>
-        <a href="#typing-paragraph"> About me.</a> <br>
-        <a href="#projects">Project showcase.</a><br>
-        <a href="#technologies">Tech/tools i use.</a><br>
-        <a href="#resume"> Resume/CV (downloadable).</a><br>
-        <a href="#testimonials">Testimonials & Recomedations.</a><br>
-        <a href="#contact info"> Contact information.</a><br>
+        <fieldset class="fieldset"><p >Hello 🤝 welcome to my portfolio. Click on the aside 👈 links to read about me!!! </p><br>
+            
+            
         </fieldset> 
-
+            <img src="./me (2).jpg" alt="cooljoe623">
         <fieldset class="fieldset2">
 
         <button id="theme-toggle" style="float: right;height: 1cm;">Toggle Theme</button>
-<p>Email:  <a href="https://josephgichure692@gmail.com">    josephgichure692@gmail.com</a></p>
-<p>Whatsapp:  <a href="https://Whatsapp.com/message/0101260024">    +254 758 213 683</a></p>
-<p>Github:   <a href="https://github.com/cooljoe623">   cooljoe623</a></p>
-<p>LinkedIn:   <a href="https://linkedin.com/josephgichure">Joseph Gichure</a></p>
+        <ul type="square">
+            <p><li>Email:  <a href="https://josephgichure692@gmail.com">    josephgichure692@gmail.com</a></li></p>
+            <p><li>Whatsapp:  <a href="https://Whatsapp.com/message/0758213683">    +254 758 213 683</a></li></p>
+            <p><li>Github:   <a href="https://github.com/cooljoe623">   cooljoe623</a></li></p>
+            <p><li>LinkedIn:   <a href="https://linkedin.com/josephgichure">   Joseph Gichure</a></li></p>
+            <p><li>Upwork:<a href="https://upwork.com/josephgichure">    Joseph Gichure</a></li></p>
+        </ul>
 
 </fieldset>
 
@@ -106,7 +126,7 @@
 
         </fieldset><br>
 
-        <fieldset class="container">
+        <fieldset class="fieldsetfooter">
 
         <fieldset class="fieldset">
             <code>
@@ -123,42 +143,42 @@
 
             </p>
         </details>
-
-        <a href="./joseph_gichure_cv.pdf">download cv</a><br><br>
+        <summary id="Resume">CV </summary>
+        <a href="./joseph_gichure_cv.pdf">Download/View cv</a><br><br>
 
         <!--THE TECH AND TOOLS I HAVE USED-->
         <!--incomplete details tag(dtails)-->
-        <dtails><summary>Tech & tools i use.</summary>
+        <dtails><summary id="technologies">Tech & tools i use.</summary>
             <!--header sec-->
-            <table width="100%" style="border-collapse: collapse;">
+            <table width="100%" style="border-collapse: collapse;background: none;">
                           
                 <!--header section-->
                 <tr style="text-decoration: underline;">
-                    <td style="background-color:black;width: max-content; height: max-content;">
+                    <td style="width: max-content; height: max-content;">
                     <p>TECHNOLOGY</p>
                     </td>
                     <td style="background-color: rgb(226, 43, 43); height: max-content;">
                     <p>USAGE</p>
                     </td>
-                    <td style="background-color:black;width: max-content; height: max-content;">
+                    <td style="width: max-content; height: max-content;">
                         <p>EXPERIENCE(years)</p>
                         </td>
                 </tr>
 
                 
                 <!--main section-->
-                <tr style="color: blue;">
-                    <td style="background-color:black;width: max-content; height: max-content;">
+                <tr style="color: blue;background: none;">
+                    <td style="width: max-content; height: max-content;">
                     <p>python</p>
                     <p>c / c++</p>
                     <p>html, css , javascript</p>
                     </td>
-                    <td style="background-color: rgb(226, 43, 43); height: max-content;">
+                    <td style=" height: max-content;">
                     <p>backend</p>
                     <p>backend</p>
                     <p>frontend</p>
                     </td>
-                    <td style="background-color:black;width: max-content; height: max-content;">
+                    <td style="width: max-content; height: max-content;">
                         <p>2+ </p>
                         <p>3+</p>
                         <p>3+</p>
@@ -175,6 +195,56 @@
 
         </fieldset>
         
-    </fieldset>
+    </fieldset><br>
+        <button style="float: right;"><a href="#top">Back to top.</a></button>
+
+    <br><br>
+
+    <!--footer-->
+    <fieldset class="fieldsetfooter " style="text-align: center;">
+    <table style="background:none; width: 100%;height: max-content; border-radius: 1cm; ">
+        <tr style="text-decoration: underline;color: greenyellow;">
+            <td style=" height: max-content; background-color: blue;" >
+            <p>COMMENT SECTION:</p>
+            </td>
+            <td style=" height: max-content; background-color: black;">
+            <p>SPORNSORED BY:</p>
+            </td>
+            <td style=" height: max-content; background-color: blue;">
+                <p>CONTACT INFORMATION:</p>
+                </td>
+        </tr>
+
+        <tr style="text-decoration: underline; text-align: justify; color: green;">
+            <td style=" height: max-content;">
+           <p> Please leave a public comment here: </p>          
+        <textarea rows="1" cols="20" placeholder="NICE WORK CCOLJOE623."> </textarea> <br><hr>
+        <input type="submit" value="submit" onclick="alert('Thank you for the comment.It will be displayed on the page within 24hrs...')" >
+            </td>
+            <td >
+                <ul type="square" id="testimonials">
+            <p><li> My github sponsors.</li></p>
+            <p><li> Patrick Gicheru Wanjahi.</li></p>
+            <p><li> Mary Wangeci Ndegwa.</li></p>
+            </ul>
+            </td>
+            <td >
+                <ul type="square" id="contact info">
+                <p><li>Email:  <a href="https://josephgichure692@gmail.com">    josephgichure692@gmail.com</a></li></p>
+                <p><li>Whatsapp:  <a href="https://Whatsapp.com/message/0758213683">    +254 758 213 683</a></li></p>
+                <p><li>Github:   <a href="https://github.com/cooljoe623">   cooljoe623</a></li></p>
+                <p><li>LinkedIn:   <a href="https://linkedin.com/josephgichure">   Joseph Gichure</a></li></p>
+                <p><li>Upwork:<a href="https://upwork.com/josephgichure">    Joseph Gichure</a></li></p>
+            </ul>    
+            </td>
+        </tr>
+
+    </table>
+
+    ©copyright.<br>
+    buy me coffee☕☕😋: <a href="https://paypal.com.josephgichure"> paypal (Joseph Gichure) </a><br>
+        MPESA: 0758213683.
+</fieldset>
+
     </body>
 </html>
